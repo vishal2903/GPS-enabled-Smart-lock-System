@@ -1,4 +1,4 @@
-# GPS enabled Smart lock System
+# GPS-enabled Smart Lock System
  
 The GPS-enabled Smart Lock System is an advanced security solution designed to enhance safety, convenience, and real-time monitoring for users. Traditional locks suffer from vulnerabilities such as tampering risks and the need for manual operation, making them impractical for transit security. This project addresses these challenges by integrating GPS tracking, tampering detection, automated unlocking, two-factor authentication, and remote monitoring capabilities into a single smart lock solution.
 The system comprises four primary modules, each playing a crucial role in ensuring security and usability:
@@ -9,13 +9,20 @@ o	Destination Coordinate Verification: The system is pre-configured with authori
 o	Keypad-Based Password Authentication: A secure password must be entered via a keypad. The microcontroller verifies the entered password, and if both authentication factors (coordinates and password) are correct, access is granted. The LCD screen displays the lock status accordingly.
 4.	Locking Mechanism – Incorporates an electromagnetic lock (Maglock) to provide a secure locking mechanism. The Maglock is engaged unless both authentication factors are satisfied, ensuring high security against unauthorized access.
 System Benefits & Features
-•	Real-Time Theft Detection: Immediate alerts and notifications in case of tampering or unauthorized attempts.
+
+
+•	Real-Time Theft Detection: Immediate alerts and notifications in case of tampering or unauthorized attempts
+
 •	Secure Two-Factor Authentication: Prevents unauthorized unlocking by ensuring the correct destination and user authentication.
+
 •	Automated Access Control: Unlocking is automated only when security conditions are met, minimizing human intervention.
+
 •	Remote Monitoring & Alerts: Users can monitor lock status and receive alerts via a web dashboard and SMS.
+
 •	Reliability & Safety: Electromagnetic lock ensures a secure and robust locking system for transit security.
+
 Implementation & Final Stage
-With successful integration of GPS tracking, authentication, and tampering detection, the final stage of the project involves completing the Maglock system and performing extensive testing. This testing phase will focus on optimizing:
+With the successful integration of GPS tracking, authentication, and tampering detection, the final stage of the project involves completing the Maglock system and performing extensive testing. This testing phase will focus on optimizing:
 •	GPS accuracy and coordinate matching efficiency
 •	System response time in authentication and alerts
 •	Power consumption and battery efficiency
